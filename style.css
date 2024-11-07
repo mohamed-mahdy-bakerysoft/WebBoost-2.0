@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition:0.3s linear;
+    font-family:arial;
+}
+body{
+  background:#1c3450;
+}
+section{
+  background-image:url('banner.png');
+  background-position:center;
+  background-size:cover;
+  width:100%;
+  height:40vh;
+}
+.logo{
+  color:#fff;
+  padding:5px;
+  text-shadow: 1px 1px 1px #000;
+ } 
+.titulo{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+  height:5vh;
+  color:#ffffff;
+  margin:5px;
+} 
+.titulo h1{
+  font-size:20px;
+  text-shadow: 1px 1px 1px #000;
+}
+.titulo p{
+  font-size:15px;
+  font-weight:500px;
+  text-shadow: 1px 1px 1px #000;
+}
+span{
+  color:#00EFBC;
+}
+.btn{
+  padding:5px;
+}
+.btn button{
+  padding:7px;
+  border-radius:20px;
+  border:none;
+  color:#1c3450;
+  background:#00EFBC;
+  outline:none;
+}
+.btn button:hover{
+  color:#fff;
+  background:#1c3450;
+  border:solid 1px #00efbc;
+}
+nav{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  text-align:center;
+}
+nav a{
+  background:#00efbc;
+  padding:7px;
+  text-decoration:none;
+  color:#1c3450;
+  width:100%;
+  border:solid 1px #1c3450;
+}
+nav a:hover{
+  background:#1c3450;
+  border:solid 1px #00efbc;
+  color:#ffffff;
+}
+.sobre{
+  border:solid 1px #00efbc;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin:10px 10px;
+  padding:10px;
+}
+.sobre img{
+  width:90%;
+  height:45vh;
+  border-radius:30px;
+  border:solid 5px #00efbc;
+}
+.sobre div p{
+  padding:20px;
+  font-weight:200px;
+  font-size:20px;
+  text-shadow: 1px 1px 1px #000;
+}
+.sobre-titulo{
+  text-align:center;
+  color:#fff;
+  padding:10px;
+}
+.servicos-titulo{
+  color:#fff;
+  text-align:center;
+  padding:10px;
+  margin-top:5vh;
+}
+.servicos{
+  border:solid 1px #00efbc;
+  margin:10px 10px;
+  margin-top: 5vh;
+} 
+.servicos .p-servicos{
+  color:#fff;
+  text-align:center;
+  font-weight:200px;
+  font-size:20px;
+}
+.servicos-box{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:space-around;
+  padding:10px;
+  
+}
+.box{
+  width:100%;
+  height:30vh;
+  background: linear-gradient(45deg, #00efbc, #2BFFD2);
+  margin:5px;
+  padding:10px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:1px 1px 1px #000;
+}
+.servicos p{
+  color:#1c3450;
+  padding:15px;
+  font-size:20px;
+}
+.titulo-depoimentos{
+  color:#fff;
+  text-align:center;
+  padding:10px;
+  
+  
+}
+.box-depoimentos{
+  border:solid 1px #00efbc;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:10px;
+  margin:10px 10px;
+ 
+}
+ .box-d{
+  background:#00efbc;
+  border-radius:20px;
+  text-align:center;
+  color:#1c3450;
+  padding:10px;
+  margin:10px;
+}
+
+.ativo{
+    background:#1c3450;
+    border:solid 1px #00efbc;
+    color:#ffffff;
+}
+.action{
+  border:solid 1px #00efbc;
+  text-align:center;
+  padding:5px;
+  margin:10px 10px;
+  height:40vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-top:10vh;
+}
+.action p{
+  color:#fff;
+  padding:20px;
+  padding:15px;
+}
+.action button{
+  border:none;
+  border:solid 2px #00efbc;
+  background:#1c3450;
+  padding:20px;
+  border-radius:20px;
+  color:#fff;
+  font-weight:100px;
+  outline:none;
+  font-size:15px;
+}
+.action button:hover{
+  border:solid 2px #1c3450;
+  background:#00efbc;
+  color:#1c3450;
+}
+footer{
+  background:#00efbc;
+  width:100vw;
+  height:15vh;
+  margin-top:60px;
+}
+footer .contato{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  padding:10px;
+}
+.direitos{
+  padding:10px;
+  text-align:center;
+} 
+.box img{
+  width:100px;
+  margin-bottom:-20px;
+}
+.box-d{
+  display:flex;
+  align-items:center;
+}
+.box-depoimentos img{
+  width:100px;
+  border-radius:100%;
+  padding:5px;
+}
+@media screen and (min-width:500px){
+  section{
+    background-position:center;
+    background-size:cover;
+    width:100%;
+    height:90vh;
+  }
+ .sobre img{
+   width:90%;
+   height:80vh;
+ }
+.servicos-box{
+  display:flex;
+  flex-direction:row;
+  height:100vh;
+}
+.servicos-box .box{
+  height:80vh;
+}
+.box-header{
+  width:50%;
+  height:100%;
+}
+footer{
+  height:50vh;
+  margin-bottom:0;
+} 
+.action{
+  height:60vh;
+}
+}
+
